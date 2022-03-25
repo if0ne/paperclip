@@ -43,7 +43,7 @@ use paperclip_core::v2::models::{
 use std::collections::BTreeMap;
 
 #[cfg(feature = "swagger-ui")]
-static SWAGGER_DIST: Dir = include_dir!("$CARGO_MANIFEST_DIR/swagger-ui/dist");
+static SWAGGER_DIST: Dir = include_dir!("$CARGO_MANIFEST_DIR/../swagger-ui/dist");
 
 /// Indicates that this thingmabob has a path and a bunch of definitions and operations.
 pub trait Mountable {
